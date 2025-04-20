@@ -1,0 +1,23 @@
+@use '/src/variables.scss' as *;
+
+.eclipse{
+  display: flex;
+  justify-content: flex-start;
+  width: 40px;
+  align-items: center;
+  background-color: $bright-gray-color;
+  padding: 2px;
+  border-radius: $br-max;
+}
+.active{
+  justify-content: flex-end;
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: $br-max;
+  background-color: $light-blue-color;
+}
+.activeCircle{
+  background-color: $blue-color;
+}

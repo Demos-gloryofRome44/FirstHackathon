@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+      - ./audio_sessions:/app/audio_sessions
+    environment:
+      - PORT=8000 
+      - PYTHONUNBUFFERED=1  # Для немедленного вывода логов
+  

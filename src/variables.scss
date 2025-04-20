@@ -1,0 +1,56 @@
+$blue-color: #243277;
+$dark-blue-color: #232237;
+$light-blue-color: rgba(142, 191, 255, 1);
+$light-purple-color: rgba(42, 63, 157, 0.4);
+$light-pink-color: rgba(139, 92, 246, 0.2);
+$error-color: #b91919;
+$light-red-color: rgba(240, 128, 128, 1);
+$white-color: rgba(244, 244, 245, 1); ;
+$black-color: #000000;
+$bright-gray-color: #f7f7f7;
+$gray-color: #d9d9d9;
+$light-gray-color: rgba(224, 224, 224, 1);
+$dark-gray-color: rgba(77, 77, 77, 1);
+
+$br-small: 10px;
+$br-mid: 20px;
+$br-max: 1000px;
+$max-width: 1440px;
+
+$page-content-max-width: 1240px;
+$padding-s: 5px;
+$padding-m: 10px;
+$padding-l: 15px;
+
+
+@mixin block-styles {
+  background-color: $dark-blue-color;
+  border-radius: $br-small;
+  padding: $padding-l;
+  flex: 1;
+}
+
+@mixin page-styles {
+  padding: $padding-l;
+  flex: 1;
+}
+
+@mixin header-styles{
+  background-color: $dark-blue-color;
+  border-radius: $br-small;
+  margin: 15px 15px 0;
+  padding: $padding-l;
+}
+
+@mixin modal-styles{
+  width: 50%;
+  height: 50%;
+  background-color: $dark-blue-color;
+  border-radius: $br-small;
+  padding: $padding-l;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+

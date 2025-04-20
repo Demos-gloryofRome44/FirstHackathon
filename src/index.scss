@@ -1,0 +1,40 @@
+@use './variables' as *;
+
+#root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  font-family: 'Raleway','LibreFranklin', system-ui, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  color: $white-color;
+  background-color: $white-color;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  all: unset;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/src/assets/fonts/UniversRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('/src/assets/fonts/UniversRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

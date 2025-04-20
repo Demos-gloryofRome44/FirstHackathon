@@ -1,0 +1,19 @@
+@use '/src/variables.scss' as *;
+
+.hint{
+  padding: 20px;
+  background-color: $light-purple-color;
+}
+
+.first{
+  background-color: $light-purple-color;
+}
+
+.second{
+  background-color: $light-pink-color;
+}
+
+.third{
+  background-color: $light-red-color;
+
+}
